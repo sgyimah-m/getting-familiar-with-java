@@ -8,12 +8,14 @@ class AddTwoMattrix {
         int first [] [] = new int [m] [n];
         int second [] [] = new int [m] [n]; int sum [] [] = new int [m] [n];
         System.out.println("Enter the elementsof the first matrix");
+        int c;
         int d;
-        for ( int c = 0 ; c < m ; c++ )
+        for ( c = 0 ; c < m ; c++ )
         for ( d = 0; d < n; d++ )
-        int m,n,c,d;
+        
         first [c] [d] = in.nextInt();
         System.out.println("Enter the elements of the second matrix");
+      
         for ( c = 0; c < m; c++ )
         for ( d = 0; d < n; d++ )
         second [c] [d] = in.nextInt(); for ( c = 0; c < m; c++ ) for ( d = 0; d < n; d++ )
@@ -23,12 +25,10 @@ class AddTwoMattrix {
         {
             for ( d = 0; d < n; d++ )
             System.out.print(sum[c] [d] + "\t");
-            System.out.println;
+            System.out.println();
+            
         }
         
     }
-    
-
-
-      
+        
 }
