@@ -2,12 +2,12 @@ import java.util.Scanner;
 class AddTwoMattrix {
     public static void main (String args[]) {
         Scanner in = new Scanner(System.in);
-        System.out.println("Enter the number of rows and cloumns of matrix");
+        System.out.println("Enter the number of rows and columns of matrix");
         int m = in.nextInt();
         int n = in.nextInt();
         int first [] [] = new int [m] [n];
         int second [] [] = new int [m] [n]; int sum [] [] = new int [m] [n];
-        System.out.println("Enter the elementsof the first matrix");
+        System.out.println("Enter the elements of the first matrix");
         int c;
         int d;
         for ( c = 0 ; c < m ; c++ )
