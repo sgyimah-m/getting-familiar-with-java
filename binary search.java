@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 import javax.lang.model.util.ElementScanner14;
 class binarysearch {
+  
     public static void main(String args []){
         int c, first, last, middle, n, search, array[];
         Scanner in = new Scanner(System.in);
@@ -16,13 +17,16 @@ class binarysearch {
         if (array[middle] < search) first = middle + 1; else if
         (array[middle] == search) {
             System.out.println(search + " found at location " + (middle + 1) + ".");
-        break;        }
+                }
         else 
         last = middle -1;
         middle = (first + last)/2;
-    }
+   
     if (first > last)
     System.out.println(search + "is not present in the list. \n");
-
-    }
+    
 }
+    
+
+}
+
