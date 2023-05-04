@@ -9,7 +9,7 @@ class binarysearch {
         System.out.println("Enter number of elements");
         n = in.nextInt();
         array = new int[n];
-        System.out.println("Enter " + n + "integers");
+        System.out.println("Enter " + n + " integers");
         for (c = 0; c < n; c++) array[c]=in.nextInt();
         System.out.println("Enter value to find");
         search = in.nextInt();
