@@ -7,7 +7,6 @@ class armstrong {
         n = in.nextInt();
         temp = n;
         while (temp != 0) {
-            %10;
             digits++;
             temp = temp/10;
             
@@ -25,9 +24,9 @@ class armstrong {
     }    
     static int power(int n, int r){
         int c, p = 1; 
-        for (c = 1; c <= r; c++)
+        for (c = 1; c <= r;)
         return p;
-        p = p*n;
+        return p = p*n;
     }
     
 }
