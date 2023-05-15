@@ -8,10 +8,16 @@ class bubblesort { public static void
         for (c = 0; c < n; c++) array[c] = in.nextInt();
         for (c = 0; c < (n - 1); c++) {
             for (d = 0; d < n - c - 1; d++) {
-                if (array[d]) > array[d+1]
+                if (array[d] > array[d+1]){
+                    array[d];
+                    swap = array[d]=array[d+1];
+                    array[d+1] = swap;
+                                    }
             }
         }
-
+        System.out.println("Sorted list of numbers");
+        for (c = 0; c < n; c++)
+        System.out.println(array[c]);
     }
     
 }
